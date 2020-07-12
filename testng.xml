@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Demo" verbose="1">
+
+	<test name="WebUI Test 1">
+		<parameter name="test_ID" value="Test_1" />
+		<parameter name="test_Name" value="WebUI and API Test 1" />
+		<parameter name="test_City" value="Chennai" />
+		<classes>
+			<class name="apiwebui.TestDemo">
+				<methods>
+					<include name="webUITest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
