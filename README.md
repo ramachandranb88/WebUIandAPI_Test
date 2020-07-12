@@ -4,6 +4,7 @@ WebUI and API Test automation with TESTNG
 Page Object Model - Maven project : Code to validate NDTV weather report with open weather api response
 
 Driver - No configuration or driver download needed, used bonigarcia webdriver manager
+API - Used Rest Assured with POJO implementation
 
 Steps to Run the code :
 Download the code to local folder using git pull or git download option
